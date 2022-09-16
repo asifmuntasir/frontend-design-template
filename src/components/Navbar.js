@@ -31,10 +31,9 @@ const Navbar = () => {
                         {/* <a class="nav-link" href="https://github.com/asifmuntasir/">Link</a> */}
                     </li>
                     <li class="nav-item mx-2 d-flex justify-content-center align-items-center">
-                        <i class="ri-user-fill nav-link me-2 fs-5 text-dark user-icon-border"></i>
-                        <span className='me-1'>Asif Muntasir Shauib</span>
-                        <i class="ri-arrow-down-s-line">
-                        </i>
+                        <i class="ri-account-circle-fill pb-3 me-1 mt-1 fs-5 text-dark"></i>
+                        <span className='me-1 user-name fw-bold'>Asif Muntasir Shauib</span>
+                        <i class="ri-arrow-down-s-line arrow-icon fs-5"></i>
                     </li>
                 </ul>
             </div>
