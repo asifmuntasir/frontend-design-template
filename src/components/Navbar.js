@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../assets/images/Adwords.gif'
-import '../assets/nav.css';
+// import '../assets/nav.css';
 
 const Navbar = () => {
     return (

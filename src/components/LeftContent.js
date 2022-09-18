@@ -6,7 +6,7 @@ import UserIcon from '../assets/images/man.png';
 const LeftContent = () => {
     return (
         <div>
-            <div className='my-3 p-3 bg-white rounded'>
+            <div className='my-3 p-4 bg-white rounded'>
                 <h5 className='fw-bold'>Explore</h5>
                 <ul className='p-0 my-3 list-unstyled'>
                     <li className='my-2 d-flex align-items-center'>
