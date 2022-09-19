@@ -23,8 +23,8 @@ const RightContent = () => {
             <div className="my-3 bg-white rounded p-4">
                 <h5 className='fw-bold'>Your Friends</h5>
                 <form className='mt-5'>
-                    <i class="ri-search-line friend-search-icon"></i>
-                    <input className='w-100 position-relative' type="search" name="search" id="search" />
+                    {/* <i class="ri-search-line friend-search-icon"></i> */}
+                    <input className='w-100 position-relative' placeholder='✍️' type="search" name="search" id="search" />
                 </form>
                 <div className='d-flex align-items-center mt-4'>
                     <img className='w-25 me-3' src={UserIcon} alt="" />

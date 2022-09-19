@@ -91,3 +91,16 @@ form .search-icon {
   left: 1135px;
   color: gray;
 }
+
+
+/********** Post Content Design ************/
+
+.bg-ligth-gray {
+  background-color: #F1F1F1;
+  width: 85%;
+  color: #555555;
+}
+
+.post-icon {
+  margin-top: 2px;
+}
