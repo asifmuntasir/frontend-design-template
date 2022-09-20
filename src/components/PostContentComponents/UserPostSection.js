@@ -1,5 +1,7 @@
 import React from 'react';
 import UserIconMyself from '../../assets/images/user3.png'
+import DropDown from './DropDown';
+import UserIcon4 from '../../assets/images/user4.png';
 
 const UserPostSection = () => {
     return (
@@ -18,15 +20,43 @@ const UserPostSection = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="dropdown">
-                        <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i className="ri-arrow-down-s-line"></i>
-                        </button>
-                        <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a className="dropdown-item">Action</a></li>
-                            <li><a className="dropdown-item">Another action</a></li>
-                            <li><a className="dropdown-item">Something else here</a></li>
-                        </ul>
+                    <div>
+                        <DropDown />
+                    </div>
+                </div>
+                <div className='p-2'>
+                    <p className='ms-3'>your favourite game</p>
+                    <div className="form-check my-2 d-flex align-items-center justify-content-between">
+                        <input className="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
+                        <div className='bg-ligth-gray rounded ms-2 py-2 px-3 me-2'>
+                            <label className="form-check-label fs-6" for="flexCheckDefault">
+                                Added by you
+                            </label>
+                            <p className='mb-0'>Cricket</p>
+                        </div>
+                        <div className='text-center'>
+                            <img src={UserIcon4} alt="" />
+                            <p className='font-size'>1 vote</p>
+                        </div>
+                        <p><i class="ri-scissors-line bg-ligth-gray rounded-circle p-1"></i></p>
+                    </div>
+                    <div className="form-check my-2">
+                        <input className="form-check-input mt-4" type="checkbox" value="" id="flexCheckChecked" />
+                        <div className='bg-ligth-gray rounded ms-1 py-2 px-3'>
+                            <label className="form-check-label fs-6" for="flexCheckDefault">
+                                Added by you
+                            </label>
+                            <p className='mb-0'>Cricket</p>
+                        </div>
+                    </div>
+                    <div className="form-check my-2">
+                        <input className="form-check-input mt-4" type="checkbox" value="" id="flexCheckChecked" />
+                        <div className='bg-ligth-gray rounded ms-1 py-2 px-3'>
+                            <label className="form-check-label fs-6" for="flexCheckDefault">
+                                Added by you
+                            </label>
+                            <p className='mb-0'>Cricket</p>
+                        </div>
                     </div>
                 </div>
             </div>
