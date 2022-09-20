@@ -15,7 +15,7 @@ code {
 
 
 /****************** Utility Classes *****************/
-.font-size{
+.font-size {
   font-size: 10px;
 }
 
@@ -109,8 +109,76 @@ form .search-icon {
 
 .post-icon {
   margin-top: 2px;
+  /* cursor: pointer; */
 }
 
 .public-post-icon {
   margin-top: 1px;
+}
+
+.all-cursor {
+  cursor: pointer;
+}
+
+.all-cursor:hover {
+  background-color: #cac7c7;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+.comment-field {
+  position: relative;
+  padding: 10px 15px;
+  border: none;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+}
+
+.comment-icon {
+  position: absolute;
+  top: 799px;
+  right: 480px;
+}
+
+.comment-img {
+  max-width: 250px;
+  max-height: 150px;
+  object-fit: cover;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.comment-img img {
+  width: 80%;
+  height: 100%;
+}
+
+.custom-width {
+  width: 350px;
+}
+
+.custom-width img {
+  width: 10%;
+  height: 10%;
+}
+
+/* Reply Field */
+
+.reply-comment-width {
+  width: 500px;
+  margin-left: 43px;
+}
+
+.reply-field {
+  position: relative;
+  padding: 10px 15px;
+  border: none;
+  background-color: #F1F1F1;
+  border-radius: 20px;
+}
+
+.reply-icon {
+  position: absolute;
+  top: 1244px;
+  right: 550px;
 }
