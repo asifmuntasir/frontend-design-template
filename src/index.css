@@ -116,6 +116,12 @@ form .search-icon {
   margin-top: 1px;
 }
 
+.post-header-msg {
+  font-size: 15px;
+  margin-left: 5px;
+  color: gray;
+}
+
 .all-cursor {
   cursor: pointer;
 }
@@ -136,7 +142,7 @@ form .search-icon {
 
 .comment-icon {
   position: absolute;
-  top: 799px;
+  top: 865px;
   right: 480px;
 }
 
@@ -179,6 +185,19 @@ form .search-icon {
 
 .reply-icon {
   position: absolute;
-  top: 1244px;
+  top: 1309px;
   right: 550px;
+}
+
+
+/* Post Image Div Design */
+
+.post-img {
+  width: 100%;
+  height: 350px;
+}
+
+.post-img img {
+  width: 100%;
+  height: 350px;
 }

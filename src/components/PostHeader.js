@@ -1,11 +1,14 @@
 import React from 'react';
 
-const PostHeader = ({ icon, postTime }) => {
+const PostHeader = ({ icon, userName, postTime, msg }) => {
     return (
         <div className='d-flex p-2'>
             <img className='me-3' src={icon} alt="" />
             <div className='mt-2'>
-                <h5 className='mb-0'>Asif Muntasir Shuaib</h5>
+                <h5 className='mb-0'>
+                    {userName}
+                    <span className='post-header-msg'>{msg}</span>
+                </h5>
                 <ul className='d-flex align-items-center text-muted list-unstyled p-0 m-0 mb-2'>
                     <li className='d-flex align-items-center'>
                         <p className='mb-0 me-2'>{postTime}</p>
