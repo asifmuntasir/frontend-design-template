@@ -201,3 +201,12 @@ form .search-icon {
   width: 100%;
   height: 350px;
 }
+
+.like-comment {
+  cursor: pointer;
+  border-bottom: 2px solid gray;
+}
+
+.bg-gredient {
+  background: linear-gradient(to right, #ad5389, #3c1053);
+}
