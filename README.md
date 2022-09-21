@@ -1,5 +1,5 @@
 # Title-Info
-> Socail Site Frontend Design(on going).
+> Socail Site Frontend Design. I have made this for an Intern Front End from AppifyLab LLC.
 
 
 # ScreenShots
@@ -10,9 +10,10 @@
 - React
 - Bootstrap 5
 - Remixicon 
+- Material UI
 
 ## Live Demo
-For the link to the live demo, [Click here]
+For the link to the live demo, [Click here](https://frontend-design-template.vercel.app/)
 
 ## Getting Started
 To get a local copy up and running you just need to follow the following steps;

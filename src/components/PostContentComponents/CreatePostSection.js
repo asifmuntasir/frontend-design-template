@@ -6,9 +6,9 @@ const CreatePostSection = () => {
     return (
         <>
             <div className="container my-3 p-3 bg-white rounded">
-                <div className='border-bottom'>
-                    <img className='me-3 mb-1' src={UserIcon} alt="" />
-                    <input className='p-3 border-0 rounded-pill bg-ligth-gray' type="text" placeholder='Create a new post...' />
+                <div className='border-bottom d-flex'>
+                    <img className='me-2 mb-1' src={UserIcon} alt="" />
+                    <input className='p-3 border-0 rounded-pill bg-ligth-gray mb-2' type="text" placeholder='Create a new post...' />
                 </div>
                 <ul className='d-flex align-items-center justify-content-evenly list-unstyled p-0 mt-3'>
                     <li className='d-flex align-items-center'>
