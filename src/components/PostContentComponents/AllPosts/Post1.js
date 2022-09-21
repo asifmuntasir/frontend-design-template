@@ -122,9 +122,8 @@ const Post1 = () => {
                             <i class="ri-attachment-2 all-cursor"></i>
                             <i class="ri-file-gif-line all-cursor"></i>
                         </div>
-                        <div className='w-75 me-1'>
+                        <div className='me-1' style={{ width: '70%' }}>
                             <input className='w-100 reply-field' type="text" placeholder='Write a comment' />
-                            {/* <i class="ri-send-plane-fill reply-icon"></i> */}
                         </div>
                     </div>
                 </div>
