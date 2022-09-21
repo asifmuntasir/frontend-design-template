@@ -16,7 +16,7 @@ const Post5 = () => {
                 <div className='d-flex align-items-center justify-content-between'>
                     <PostHeader
                         icon={TeacherIcon}
-                        userName={'Deepro Asiful Hai'}
+                        userName={'Juhaer Elham Fateen'}
                         postTime={'2 days ago'} />
                     <div>
                         <DropDown />

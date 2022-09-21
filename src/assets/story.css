@@ -1,0 +1,61 @@
+/* story */
+.story {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+}
+
+.create__story {
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    top: 130px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.create__icon {
+    left: 50px;
+    font-size: 30px;
+    border: 3px solid #079992;
+    border-radius: 50%;
+    width: 45px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.story:hover {
+    transform: scale(1.03);
+}
+
+.story__avatar {
+    margin: 10px;
+    color: blue;
+}
+
+.user__avatar {
+    border: 3px solid #079992;
+    border-radius: 50%;
+    width: 45px;
+}
+
+.story h5 {
+    position: absolute;
+    bottom: 20px;
+    color: #2bcbba;
+    font-weight: bold;
+    text-align: center;
+}
+
+.storyReel {
+    padding: 10px 0;
+    display: flex;
+}

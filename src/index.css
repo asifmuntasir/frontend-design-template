@@ -1,11 +1,12 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #E8EBED;
+  /* background-color: #E8EBED; */
 }
 
 code {
@@ -19,7 +20,19 @@ code {
   font-size: 10px;
 }
 
-/* Navbar Design CSS Code */
+.cursor-pointer {
+  cursor: pointer;
+  transition: 0.4s all;
+  padding: 5px;
+}
+
+.cursor-pointer:hover {
+  background-color: #cac7c7;
+  border-radius: 5px;
+}
+
+
+/*************** Navbar Design CSS Code **************/
 
 .logo {
   width: 50px;
@@ -79,6 +92,7 @@ form .search-icon {
 
 
 /****************** Layout Design ****************/
+
 
 /********** Left Content Design ***********/
 
@@ -168,7 +182,8 @@ form .search-icon {
   height: 10%;
 }
 
-/* Reply Field */
+
+/************** Reply Field **************/
 
 .reply-comment-width {
   width: 500px;
@@ -190,7 +205,7 @@ form .search-icon {
 }
 
 
-/* Post Image Div Design */
+/*************** Post Image Div Design ************/
 
 .post-img {
   width: 100%;
@@ -209,4 +224,13 @@ form .search-icon {
 
 .bg-gredient {
   background: linear-gradient(to right, #ad5389, #3c1053);
+}
+
+
+
+/******************** Footer Design ******************/
+
+.social-site:hover {
+  background-color: #88d4c5;
+  transition: 0.4s all;
 }

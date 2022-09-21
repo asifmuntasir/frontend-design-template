@@ -124,7 +124,7 @@ const Post1 = () => {
                         </div>
                         <div className='w-75 me-1'>
                             <input className='w-100 reply-field' type="text" placeholder='Write a comment' />
-                            <i class="ri-send-plane-fill reply-icon"></i>
+                            {/* <i class="ri-send-plane-fill reply-icon"></i> */}
                         </div>
                     </div>
                 </div>

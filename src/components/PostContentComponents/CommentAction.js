@@ -15,7 +15,7 @@ const CommentAction = () => {
                 </div>
                 <div className='w-75'>
                     <input className='w-100 comment-field' type="text" placeholder='Write a comment' />
-                    <i class="ri-send-plane-fill comment-icon"></i>
+                    {/* <i class="ri-send-plane-fill comment-icon"></i> */}
                 </div>
             </div>
 

@@ -11,23 +11,23 @@ const LeftContent = () => {
                 <ul className='p-0 my-3 list-unstyled'>
                     <li className='my-2 d-flex align-items-center'>
                         <i class="ri-save-line fs-4 me-3"></i>
-                        <p className='mb-0'>Save</p>
+                        <p className='mb-0 cursor-pointer'>Save</p>
                     </li>
                     <li className='my-2 d-flex align-items-center'>
                         <i class="ri-user-3-line fs-4 me-3"></i>
-                        <p className='mb-0'>People</p>
+                        <p className='mb-0 cursor-pointer'>People</p>
                     </li>
                     <li className='my-2 d-flex align-items-center'>
                         <i class="ri-group-line fs-4 me-3"></i>
-                        <p className='mb-0'>Groups</p>
+                        <p className='mb-0 cursor-pointer'>Groups</p>
                     </li>
                     <li className='my-2 d-flex align-items-center'>
                         <i class="ri-pages-line fs-4 me-3"></i>
-                        <p className='mb-0'>Pages</p>
+                        <p className='mb-0 cursor-pointer'>Pages</p>
                     </li>
                     <li className='my-2 d-flex align-items-center'>
                         <i class="ri-calendar-line fs-4 me-3"></i>
-                        <p className='mb-0'>Events</p>
+                        <p className='mb-0 cursor-pointer'>Events</p>
                     </li>
                 </ul>
             </div>
